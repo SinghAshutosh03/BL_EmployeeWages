@@ -10,8 +10,8 @@ class EmployeePayroll {
 
 // Creating Employee Payroll Data objects
 const emp1 = new EmployeePayroll(101, "Himanshu", 50000);
-const emp2 = new EmployeePayroll(102, "Dwivedi", 60000);
-const emp3 = new EmployeePayroll(103, "HD", 55000);
+const emp2 = new EmployeePayroll(102, "devansh", 60000);
+const emp3 = new EmployeePayroll(103, "Ashutosh", 55000);
 
 // Storing multiple employee records in an array
 const employees = [emp1, emp2, emp3];

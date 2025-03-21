@@ -38,7 +38,7 @@ class EmployeePayroll {
 }
 
 try {
-    const emp1 = new EmployeePayroll(101, "Ashutosh", 50000, "F", "2023-06-15");
+    const emp1 = new EmployeePayroll(101, "Ashutosh", 50000, "M", "2023-06-15");
     console.log(emp1.getDetails());
 
     const emp2 = new EmployeePayroll(102, "Himanshu", 60000, "M", "2022-09-10");

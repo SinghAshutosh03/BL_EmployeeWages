@@ -21,7 +21,7 @@ class EmployeePayroll {
 
 // Creating Employee Payroll Data objects with Try-Catch
 try {
-    const emp1 = new EmployeePayroll(101, "Ashutosh", 50000, "Female", "2024-09-04");
+    const emp1 = new EmployeePayroll(101, "Ashutosh", 500000, "Male", "2024-09-04");
     console.log(emp1.getDetails());
 
     const emp2 = new EmployeePayroll(102, "Himanshu", 60000, "Male", "2024-06-05");
